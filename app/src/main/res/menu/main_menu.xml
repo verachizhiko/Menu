@@ -1,0 +1,40 @@
+<?xml version="1.0" encoding="utf-8"?>
+<menu xmlns:android="http://schemas.android.com/apk/res/android">
+    <item
+        android:id="@+id/call"
+        android:orderInCategory="1"
+        android:title="Call" />
+
+    <group android:checkableBehavior="single">
+        <item
+            android:id="@+id/camera"
+            android:orderInCategory="2"
+            android:title="Camera"
+            android:checked="true" />
+        <item
+            android:id="@+id/video"
+            android:orderInCategory="3"
+            android:title="Video"/>
+    </group>
+
+    <item
+        android:id="@+id/email"
+        android:orderInCategory="4"
+        android:title="Email" />
+    <item
+        android:id="@+id/add"
+        android:orderInCategory="5"
+        android:title="Add" />
+    <item
+        android:id="@+id/copy"
+        android:orderInCategory="6"
+        android:title="Copy" />
+    <item
+        android:id="@+id/paste"
+        android:orderInCategory="7"
+        android:title="Paste" />
+    <item
+        android:id="@+id/help"
+        android:orderInCategory="8"
+        android:title="Help" />
+</menu>
